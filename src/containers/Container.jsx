@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Sidebar from '../components/Displays/Sidebar';
-import Body from '../components/Displays/Body';
-import Controls from '../components/Controls/Controls';
+import Sidebar from '../components/displays/Sidebar';
+import Body from '../components/displays/Body';
+import Controls from '../components/controls/Controls';
 
 export default class Container extends Component {
   state = {};
@@ -14,7 +14,7 @@ export default class Container extends Component {
   render() {
     return (
       <>
-      <h1> Testing Testing</h1>
+        <h1> Testing Testing</h1>
         <Sidebar />
         <Controls />
         <Body />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Body from '../components/displays/Body';
+import Body from '../components/Displayss/Body';
 import Controls from '../components/controls/Controls';
 import fetchReq from '../services/fetchReq';
 export default class Container extends Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import History from '../displays/History';
+import History from './History';
 
 const Sidebar = ({ history }) => {
   const historyList = history.map((item, index) => (

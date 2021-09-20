@@ -22,7 +22,6 @@ const Controls = ({ onSubmit, url, onChange, body }) => (
     </label>
     <button aria-label="button">Submit!</button>
     <textarea name="body" value={body} onChange={onChange}>
-        Body for response...
     </textarea>
   </form>
 );

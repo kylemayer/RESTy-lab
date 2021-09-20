@@ -71,9 +71,7 @@ exports[`App component displays App component 1`] = `
     </button>
     <textarea
       name="body"
-    >
-      Body for response...
-    </textarea>
+    />
   </form>
 </DocumentFragment>
 `;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component displays App component 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      aria-label="url"
+      name="url"
+      type="text"
+      value=""
+    />
+    <label
+      for="GET"
+    >
+       GET
+      <input
+        id="GET"
+        name="method"
+        type="radio"
+        value="GET"
+      />
+    </label>
+    <label
+      for="POST"
+    >
+       POST
+      <input
+        id="POST"
+        name="method"
+        type="radio"
+        value="POST"
+      />
+    </label>
+    <label
+      for="PUT"
+    >
+       PUT
+      <input
+        id="PUT"
+        name="method"
+        type="radio"
+        value="PUT"
+      />
+    </label>
+    <label
+      for="PATCH"
+    >
+       PATCH
+      <input
+        id="PATCH"
+        name="method"
+        type="radio"
+        value="PATCH"
+      />
+    </label>
+    <label
+      for="DELETE"
+    >
+       DELETE
+      <input
+        id="DELETE"
+        name="method"
+        type="radio"
+        value="DELETE"
+      />
+    </label>
+    <button
+      aria-label="button"
+    >
+      Submit!
+    </button>
+    <textarea
+      name="body"
+    />
+  </form>
+</DocumentFragment>
+`;

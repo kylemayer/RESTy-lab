@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Controls = ({ onSubmit, url, onChange, body }) => (
   <form onSubmit={onSubmit}>
-    <input type="text" name="url" value={url} onChange={onChange} />
+    <input type="text"  aria-label="url" name="url" value={url} onChange={onChange} />
     <label htmlFor="GET"> GET
       <input type="radio" name="method" id="GET" value="GET" onChange={onChange}/>
     </label>
@@ -20,7 +20,7 @@ const Controls = ({ onSubmit, url, onChange, body }) => (
     <label htmlFor="DELETE"> DELETE
       <input type="radio" name="method" id="DELETE" value="DELETE" onChange={onChange}/>
     </label>
-    <button>Submit!</button>
+    <button aria-label="button">Submit!</button>
     <textarea name="body" value={body} onChange={onChange}>
         Body for response...
     </textarea>

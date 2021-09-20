@@ -4,9 +4,9 @@ import ReactJson from 'react-json-view';
 
 const Body = ({ response }) => {
   return (
-    <section aria-label="response">
+    <div role="body" aria-label="response">
       <ReactJson src={response} />
-    </section>
+    </div>
   );
 };
 Body.propTypes = {

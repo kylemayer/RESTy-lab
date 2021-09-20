@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Sidebar from '../components/displays/Sidebar';
 import Body from '../components/displays/Body';
 import Controls from '../components/controls/Controls';
 import fetchReq from '../services/fetchReq';
@@ -29,7 +28,7 @@ export default class Container extends Component {
 
     return (
       <>
-        <h1> Testing Testing</h1>
+        <h3>Postman clone</h3>
         <Controls
           onChange={this.handleChange}
           onSubmit={this.handleSubmit}
@@ -38,8 +37,6 @@ export default class Container extends Component {
           body={body}
         />
         <Body response={response} />
-        <Sidebar />
-
       </>
     );
   }

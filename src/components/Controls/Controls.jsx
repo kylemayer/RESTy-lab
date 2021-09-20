@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Controls = ({ onSubmit, url, onChange, body }) => (
   <form onSubmit={onSubmit}>
-    <input type="text" value={url} onChange={onChange} />
+    <input type="text" name="url" value={url} onChange={onChange} />
     <label htmlFor="GET"> GET
       <input type="radio" name="method" id="GET" value="GET" onChange={onChange}/>
     </label>
@@ -31,7 +31,7 @@ Controls.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
   url: PropTypes.string.isRequired,
-  body: PropTypes.string.isRequired,
+  body: PropTypes.string,
 };
 
 export default Controls;
